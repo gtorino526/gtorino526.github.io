@@ -13,8 +13,7 @@
   --panel-bg:#FDFAF4;--success:#2D6A4F;--tag-bg:rgba(201,168,76,0.15);
 }
   <body>
-  <a href="/">View in English</a>{background:var(--cream);font-family:'DM Sans',sans-serif;color:var(--ink);min-height:100vh}
-.cv-shell{max-width:820px;margin:0 auto;padding:2rem 1.5rem 4rem}
+  <a href="/">View in English</a>{background:var(--cream);font-family:'DM Sans',sans-serif;color:var(--ink);min-height:100vh}.cv-shell{max-width:820px;margin:0 auto;padding:2rem 1.5rem 4rem}
 .cv-header{display:grid;grid-template-columns:auto 1fr auto;gap:1.5rem;align-items:center;padding-bottom:1.5rem;border-bottom:0.5px solid var(--rule);margin-bottom:2rem}
 .cv-photo{width:100px;height:100px;border-radius:50%;overflow:hidden;border:2px solid var(--gold-light);flex-shrink:0;background:var(--tag-bg)}
 .cv-photo img{width:100%;height:100%;object-fit:cover;object-position:center 12%}
@@ -135,24 +134,28 @@
     </div>
   </div>
 
-  <div class="section-label">Tres pilares · click para explorar cada uno</div>
+  <div style="font-size:14px;color:var(--muted);line-height:1.7;max-width:600px;margin-bottom:2rem;padding-left:1rem;border-left:2px solid var(--gold-light);">
+    Profesional con background jurídico en formación, 4 años de experiencia B2B en empresas de tecnología e IA, y aplicación activa de herramientas de inteligencia artificial para optimizar procesos comerciales.
+  </div>
+
+    <div class="section-label">Tres pilares · click para explorar cada uno</div>
 
   <div class="pillars-grid">
     <div class="pillar active" onclick="showDemo('law')" id="p-law">
       <span class="pillar-icon">⚖</span>
       <div class="pillar-name">Derecho</div>
-      <div class="pillar-sub">Abogacía y Notariado en curso. Criterio analítico, negociación y formación legal.</div>
+      <div class="pillar-sub">Notariado y Abogacía en curso. Criterio analítico, negociación y estructura contractual.</div>
       <span class="pillar-tag">PLAFT · SENACLAFT</span>
     </div>
     <div class="pillar" onclick="showDemo('sales')" id="p-sales">
       <span class="pillar-icon">◎</span>
       <div class="pillar-name">Comercial B2B</div>
-      <div class="pillar-sub">4 años en sales. Prospección, pipeline, cierre y desarrollo de oportunidades.</div>
+      <div class="pillar-sub">4 años en tech sales. Prospección, pipeline, cierre y desarrollo de oportunidades.</div>
       <span class="pillar-tag">CRM · Venta consultiva</span>
     </div>
     <div class="pillar" onclick="showDemo('ai')" id="p-ai">
       <span class="pillar-icon">◈</span>
-      <div class="pillar-name">Technology & AI</div>
+      <div class="pillar-name">Tecnología &amp; IA</div>
       <div class="pillar-sub">Optimización de procesos con IA. Experiencia en empresas de software y compliance tech.</div>
       <span class="pillar-tag">Claude Code · Automatización</span>
     </div>
