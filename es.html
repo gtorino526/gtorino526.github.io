@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Giuliana Torino — Interactive CV</title>
+<title>Giuliana Torino — CV Interactivo</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
 *{box-sizing:border-box;margin:0;padding:0}
@@ -15,8 +15,8 @@
 body{background:var(--cream);font-family:'DM Sans',sans-serif;color:var(--ink);min-height:100vh}
 .cv-shell{max-width:820px;margin:0 auto;padding:2rem 1.5rem 4rem}
 .cv-header{display:grid;grid-template-columns:auto 1fr auto;gap:1.5rem;align-items:center;padding-bottom:1.5rem;border-bottom:0.5px solid var(--rule);margin-bottom:2rem}
-.cv-photo{width:84px;height:84px;border-radius:50%;overflow:hidden;border:2px solid var(--gold-light);flex-shrink:0;background:var(--tag-bg)}
-.cv-photo img{width:100%;height:100%;object-fit:cover;object-position:center 8%}
+.cv-photo{width:100px;height:100px;border-radius:50%;overflow:hidden;border:2px solid var(--gold-light);flex-shrink:0;background:var(--tag-bg)}
+.cv-photo img{width:100%;height:100%;object-fit:cover;object-position:center 12%}
 .cv-title{font-family:'Playfair Display',serif;font-size:36px;font-weight:400;letter-spacing:-0.5px;line-height:1.1}
 .cv-title em{font-style:italic;color:var(--muted);font-size:18px;display:block;margin-top:4px;font-family:'Playfair Display',serif}
 .cv-contact{text-align:right;font-size:12px;color:var(--muted);line-height:2;font-family:'DM Mono',monospace}
@@ -129,64 +129,64 @@ body{background:var(--cream);font-family:'DM Sans',sans-serif;color:var(--ink);m
     <div class="cv-contact">
       giuliana23torino@gmail.com<br>
       +598 98 140 235<br>
-      <a href="https://linkedin.com/in/giuliana-torino">LinkedIn ↗</a><br>
+      <a href="https://www.linkedin.com/in/giuliana-torino-b45618195/">LinkedIn ↗</a><br>
       Montevideo, Uruguay
     </div>
   </div>
 
-  <div class="section-label">Three pillars · click to explore each one</div>
+  <div class="section-label">Tres pilares · click para explorar cada uno</div>
 
   <div class="pillars-grid">
     <div class="pillar active" onclick="showDemo('law')" id="p-law">
       <span class="pillar-icon">⚖</span>
-      <div class="pillar-name">Law</div>
-      <div class="pillar-sub">Law and Notary degrees in progress. Analytical thinking, negotiation and contractual structure.</div>
+      <div class="pillar-name">Derecho</div>
+      <div class="pillar-sub">Notariado y Abogacía en curso. Criterio analítico, negociación y estructura contractual.</div>
       <span class="pillar-tag">PLAFT · SENACLAFT</span>
     </div>
     <div class="pillar" onclick="showDemo('sales')" id="p-sales">
       <span class="pillar-icon">◎</span>
-      <div class="pillar-name">B2B Sales</div>
-      <div class="pillar-sub">4 years in tech sales. Prospecting, pipeline management, closing and opportunity development.</div>
-      <span class="pillar-tag">CRM · Consultative selling</span>
+      <div class="pillar-name">Comercial B2B</div>
+      <div class="pillar-sub">4 años en tech sales. Prospección, pipeline, cierre y desarrollo de oportunidades.</div>
+      <span class="pillar-tag">CRM · Venta consultiva</span>
     </div>
     <div class="pillar" onclick="showDemo('ai')" id="p-ai">
       <span class="pillar-icon">◈</span>
       <div class="pillar-name">Technology & AI</div>
-      <div class="pillar-sub">Process optimization with AI. Experience at software and compliance tech companies.</div>
-      <span class="pillar-tag">Claude Code · Automation</span>
+      <div class="pillar-sub">Optimización de procesos con IA. Experiencia en empresas de software y compliance tech.</div>
+      <span class="pillar-tag">Claude Code · Automatización</span>
     </div>
   </div>
 
-  <div class="tab-hint">↑ Each module is interactive — explore how I work</div>
+  <div class="tab-hint">↑ Cada módulo es interactivo — explorá como trabajo</div>
 
   <!-- LAW MODULE -->
   <div class="demo-panel visible" id="demo-law">
     <div class="demo-panel-header">
       <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
-      <div class="demo-panel-title">legal_module.exe — case analysis</div>
+      <div class="demo-panel-title">módulo_legal.exe — análisis de caso</div>
     </div>
     <div class="demo-body">
       <div class="law-scene">
         <div class="case-card">
-          <h4>Case: Suspicious transaction</h4>
-          <p>A client presents three consecutive international transfers in fractioned amounts of USD 9,800 each, to accounts in low-cooperation jurisdictions, without documented economic justification.</p>
-          <div style="font-size:11px;color:var(--muted);font-family:'DM Mono',monospace;">PLAFT Certification — SENACLAFT</div>
+          <h4>Caso: Operación sospechosa</h4>
+          <p>Un cliente presenta tres transferencias internacionales consecutivas por montos fraccionados de USD 9.800 cada una, hacia cuentas en jurisdicciones de baja cooperación, sin justificación económica documentada.</p>
+          <div style="font-size:11px;color:var(--muted);font-family:'DM Mono',monospace;">Cert. PLAFT — SENACLAFT</div>
         </div>
         <div class="case-card">
-          <h4>Applicable legal framework</h4>
-          <p>Law 19.574 (Uruguay) — Prevention and control of money laundering. SENACLAFT — Circular 2.335. FATF Recommendation 20 — Reporting of suspicious transactions.</p>
-          <div style="font-size:11px;color:var(--muted);font-family:'DM Mono',monospace;">Active legal training</div>
+          <h4>Marco normativo aplicable</h4>
+          <p>Ley 19.574 (Uruguay) — Prevención y control del lavado de activos. SENACLAFT — Circular 2.335. GAFI Recomendación 20 — Reporte de operaciones sospechosas.</p>
+          <div style="font-size:11px;color:var(--muted);font-family:'DM Mono',monospace;">Formación jurídica activa</div>
         </div>
         <div class="analysis-area">
-          <div class="analysis-label">What is the correct course of action?</div>
+          <div class="analysis-label">¿Cuál es la acción correcta?</div>
           <div class="option-row">
-            <button class="opt-btn" onclick="selectOpt(this,'warn')">Request documentation from client</button>
-            <button class="opt-btn" onclick="selectOpt(this,'ok')">File STR with SENACLAFT immediately</button>
-            <button class="opt-btn" onclick="selectOpt(this,'warn2')">Preventively close the account</button>
+            <button class="opt-btn" onclick="selectOpt(this,'warn')">Solicitar documentación al cliente</button>
+            <button class="opt-btn" onclick="selectOpt(this,'ok')">Reportar ROS a SENACLAFT inmediatamente</button>
+            <button class="opt-btn" onclick="selectOpt(this,'warn2')">Cerrar la cuenta preventivamente</button>
           </div>
-          <div class="verdict-box verdict-ok" id="v-ok">✓ Correct. The signals constitute a suspicious transaction that must be reported. Structuring (fractioning), opaque jurisdictions and absence of economic justification trigger the reporting obligation under art. 17 Law 19.574. The STR must be filed without alerting the client — tipping-off is prohibited.</div>
-          <div class="verdict-box verdict-warn" id="v-warn">⚠ Incorrect. Requesting documentation without reporting may constitute "tipping-off", alerting the client about the investigation. Once the red flags are present, the reporting obligation is immediate and independent of additional documentation.</div>
-          <div class="verdict-box verdict-warn" id="v-warn2">⚠ Partially correct. Preventive closure may be valid, but it does not replace the STR. The reporting obligation remains. Additionally, closing without reporting could be interpreted as a breach of due diligence.</div>
+          <div class="verdict-box verdict-ok" id="v-ok">✓ Correcto. Las señales configuran una operación sospechosa obligatoria de reporte. Fraccionamiento (structuring), jurisdicciones opacas y ausencia de justificación económica activan la obligación del art. 17 Ley 19.574. El ROS debe presentarse sin alertar al cliente — tipping-off prohibido.</div>
+          <div class="verdict-box verdict-warn" id="v-warn">⚠ Incorrecto. Solicitar documentación sin reportar puede constituir "tipping-off", alertando al cliente sobre la investigación. La obligación de reporte es inmediata e independiente de documentación adicional.</div>
+          <div class="verdict-box verdict-warn" id="v-warn2">⚠ Parcialmente correcto. El cierre preventivo puede ser válido, pero no reemplaza al ROS. La obligación de reportar permanece.</div>
         </div>
       </div>
     </div>
@@ -196,7 +196,7 @@ body{background:var(--cream);font-family:'DM Sans',sans-serif;color:var(--ink);m
   <div class="demo-panel" id="demo-sales">
     <div class="demo-panel-header">
       <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
-      <div class="demo-panel-title">pipeline_b2b.crm — commercial management</div>
+      <div class="demo-panel-title">pipeline_b2b.crm — gestión comercial</div>
     </div>
     <div class="demo-body">
       <div class="pipeline">
@@ -214,35 +214,35 @@ body{background:var(--cream);font-family:'DM Sans',sans-serif;color:var(--ink);m
   <div class="demo-panel" id="demo-ai">
     <div class="demo-panel-header">
       <div class="dots"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div></div>
-      <div class="demo-panel-title">ai_optimizer.py — process automation</div>
+      <div class="demo-panel-title">optimizador_ia.py — automatización de procesos</div>
     </div>
     <div class="demo-body">
       <div class="ai-interface">
-        <div style="font-size:12px;color:var(--muted);margin-bottom:4px;">Select a commercial process to optimize with AI:</div>
+        <div style="font-size:12px;color:var(--muted);margin-bottom:4px;">Seleccioná un proceso comercial para optimizar con IA:</div>
         <div class="process-grid">
           <div class="process-card" onclick="optimizeProcess(this,'email')">
-            <h5>Lead follow-up</h5>
-            <div class="time-before">Manual time: 3h/day</div>
-            <div class="time-after">With AI: 20min/day</div>
-            <div class="savings-tag">-89% time</div>
+            <h5>Seguimiento de leads</h5>
+            <div class="time-before">Tiempo manual: 3h/día</div>
+            <div class="time-after">Con IA: 20min/día</div>
+            <div class="savings-tag">-89% tiempo</div>
           </div>
           <div class="process-card" onclick="optimizeProcess(this,'proposals')">
-            <h5>Fee proposals</h5>
-            <div class="time-before">Manual time: 2h/proposal</div>
-            <div class="time-after">With AI: 15min/proposal</div>
-            <div class="savings-tag">-87% time</div>
+            <h5>Propuestas de honorarios</h5>
+            <div class="time-before">Tiempo manual: 2h/propuesta</div>
+            <div class="time-after">Con IA: 15min/propuesta</div>
+            <div class="savings-tag">-87% tiempo</div>
           </div>
           <div class="process-card" onclick="optimizeProcess(this,'crm')">
-            <h5>CRM updates</h5>
-            <div class="time-before">Manual time: 45min/day</div>
-            <div class="time-after">With AI: 5min/day</div>
-            <div class="savings-tag">-89% time</div>
+            <h5>Actualización de CRM</h5>
+            <div class="time-before">Tiempo manual: 45min/día</div>
+            <div class="time-after">Con IA: 5min/día</div>
+            <div class="savings-tag">-89% tiempo</div>
           </div>
           <div class="process-card" onclick="optimizeProcess(this,'content')">
-            <h5>Social media content</h5>
-            <div class="time-before">Manual time: 4h/week</div>
-            <div class="time-after">With AI: 30min/week</div>
-            <div class="savings-tag">-87% time</div>
+            <h5>Contenidos para redes</h5>
+            <div class="time-before">Tiempo manual: 4h/semana</div>
+            <div class="time-after">Con IA: 30min/semana</div>
+            <div class="savings-tag">-87% tiempo</div>
           </div>
         </div>
         <div class="output-log" id="ai-log"></div>
@@ -250,87 +250,87 @@ body{background:var(--cream);font-family:'DM Sans',sans-serif;color:var(--ink);m
     </div>
   </div>
 
-  <div class="section-label" style="margin-top:2rem;">Experience</div>
+  <div class="section-label" style="margin-top:2rem;">Trayectoria</div>
 
   <div class="exp-grid">
     <div class="exp-item">
       <div class="exp-co">nBlock · Pento</div>
       <div class="exp-role">Growth Specialist</div>
-      <div class="exp-date">May 2025 — Apr 2026</div>
+      <div class="exp-date">may 2025 — abr 2026</div>
       <ul class="exp-bullets">
-        <li>B2B commercial opportunity generation</li>
-        <li>Content strategy and brand positioning</li>
-        <li>Process optimization with AI tools</li>
+        <li>Generación de oportunidades comerciales B2B</li>
+        <li>Estrategia de contenidos y posicionamiento</li>
+        <li>Optimización de procesos con IA</li>
       </ul>
     </div>
     <div class="exp-item">
       <div class="exp-co">Gómez Platero</div>
       <div class="exp-role">Business Development</div>
-      <div class="exp-date">Nov 2023 — May 2025</div>
+      <div class="exp-date">nov 2023 — may 2025</div>
       <ul class="exp-bullets">
-        <li>Outbound prospecting and opportunity generation</li>
-        <li>Pipeline management and lead tracking</li>
-        <li>Fee proposal preparation</li>
+        <li>Prospección outbound y generación de oportunidades</li>
+        <li>Gestión de pipeline comercial y seguimiento de leads</li>
+        <li>Elaboración de propuestas de honorarios</li>
       </ul>
     </div>
     <div class="exp-item">
       <div class="exp-co">Datalogic Software</div>
       <div class="exp-role">Lead Generator</div>
-      <div class="exp-date">May 2023 — Nov 2023</div>
+      <div class="exp-date">may 2023 — nov 2023</div>
       <ul class="exp-bullets">
-        <li>Automated outbound prospecting</li>
-        <li>Prospecting campaigns</li>
-        <li>Sales team coordination</li>
+        <li>Prospección outbound automatizada</li>
+        <li>Campañas de prospección</li>
+        <li>Coordinación con equipo de ventas</li>
       </ul>
     </div>
     <div class="exp-item">
       <div class="exp-co">Devsys · Cumplo360</div>
       <div class="exp-role">Sales Executive</div>
-      <div class="exp-date">Jan 2022 — Dec 2022</div>
+      <div class="exp-date">ene 2022 — dic 2022</div>
       <ul class="exp-bullets">
-        <li>B2B sales of compliance solutions (KYC, transaction monitoring)</li>
-        <li>Product demos and client meetings</li>
-        <li>Active prospecting and deal closing</li>
+        <li>Venta B2B de soluciones compliance (KYC, monitoreo transaccional)</li>
+        <li>Demo de app y reuniones con clientes</li>
+        <li>Prospección activa y cierre de ventas</li>
       </ul>
     </div>
   </div>
 
-  <div class="section-label">Education</div>
+  <div class="section-label">Educación</div>
   <div class="edu-row">
     <div class="edu-item">
-      <div class="edu-label">Undergraduate degree</div>
-      <div class="edu-name">Law (Abogacía)</div>
-      <div class="edu-status">Universidad de la República — finalizing (3 subjects remaining)</div>
+      <div class="edu-label">Carrera de grado</div>
+      <div class="edu-name">Abogacía</div>
+      <div class="edu-status">Universidad de la República — finalizando (3 materias)</div>
     </div>
     <div class="edu-item">
-      <div class="edu-label">Undergraduate degree</div>
-      <div class="edu-name">Notary Law</div>
-      <div class="edu-status">Universidad de la República — in progress</div>
+      <div class="edu-label">Carrera de grado</div>
+      <div class="edu-name">Notariado</div>
+      <div class="edu-status">Universidad de la República — en curso</div>
     </div>
   </div>
 
-  <div class="section-label">Skills</div>
+  <div class="section-label">Habilidades</div>
   <div class="skills-wrap">
-    <span class="skill-tag highlight">B2B Prospecting</span>
-    <span class="skill-tag highlight">Consultative selling</span>
+    <span class="skill-tag highlight">Prospección B2B</span>
+    <span class="skill-tag highlight">Venta consultiva</span>
     <span class="skill-tag highlight">CRM</span>
-    <span class="skill-tag highlight">AI applied to processes</span>
+    <span class="skill-tag highlight">IA aplicada a procesos</span>
     <span class="skill-tag highlight">PLAFT · SENACLAFT</span>
-    <span class="skill-tag">Processes · Metrics · Reporting</span>
-    <span class="skill-tag">Proposal writing</span>
+    <span class="skill-tag">Procesos · Métricas · Reporting</span>
+    <span class="skill-tag">Elaboración de propuestas</span>
     <span class="skill-tag">Pipeline management</span>
     <span class="skill-tag">Content & positioning</span>
-    <span class="skill-tag">Intermediate English</span>
-    <span class="skill-tag">Legal training</span>
-    <span class="skill-tag">Automated campaigns</span>
+    <span class="skill-tag">Inglés intermedio</span>
+    <span class="skill-tag">Formación jurídica</span>
+    <span class="skill-tag">Campañas automatizadas</span>
   </div>
 
   <div class="bottom-cta">
-    <div class="cta-text">Let's talk?</div>
+    <div class="cta-text">¿Conversamos?</div>
     <div class="cta-sub">giuliana23torino@gmail.com · +598 98 140 235</div>
     <div class="cta-links">
-      <a class="cta-link primary" href="mailto:giuliana23torino@gmail.com">Send email</a>
-      <a class="cta-link secondary" href="https://linkedin.com/in/giuliana-torino">LinkedIn</a>
+      <a class="cta-link primary" href="mailto:giuliana23torino@gmail.com">Enviar email</a>
+      <a class="cta-link secondary" href="https://www.linkedin.com/in/giuliana-torino-b45618195/">LinkedIn</a>
     </div>
   </div>
 
@@ -343,7 +343,7 @@ document.getElementById('profile-img').src = 'data:image/jpeg;base64,' + PHOTO;
 const leads = [
   {name:'Mariana López',co:'Fintech SRL',stage:'prospecting',score:'72',initials:'ML'},
   {name:'Carlos Bentín',co:'LegalTech UY',stage:'prospecting',score:'61',initials:'CB'},
-  {name:'Sofía Ríos',co:'Digital Bank',stage:'qualified',score:'88',initials:'SR'},
+  {name:'Sofía Ríos',co:'Banco Digital',stage:'qualified',score:'88',initials:'SR'},
   {name:'Diego Moran',co:'Cumplo Labs',stage:'qualified',score:'79',initials:'DM'},
   {name:'Valentina Cruz',co:'TechCorp SA',stage:'proposal',score:'91',initials:'VC'},
   {name:'Andrés Ponce',co:'RegSoft',stage:'closed',score:'95',initials:'AP'},
@@ -400,10 +400,10 @@ function selectOpt(btn,verdict){
 }
 
 const aiLogs={
-  email:['> Analyzing communication history for 47 leads...','> Detecting response patterns and optimal timing...','> Generating personalized follow-up sequences...','> Pipeline connected. Automation active.','> Estimated savings: 2h 40min per day ✓'],
-  proposals:['> Loading base proposal template...','> Extracting CRM data: industry, size, detected pain points...','> Adapting tone and scope to prospect profile...','> Proposal generated and ready for review.','> Preparation time: 15 minutes ✓'],
-  crm:['> Parsing meeting notes and emails...','> Extracting actions, dates and commitments...','> Updating fields in HubSpot automatically...','> CRM synced. 0 manual entries.','> Estimated savings: 40 minutes per day ✓'],
-  content:['> Analyzing trends in fintech/legaltech sector...','> Generating 5 content variations per platform...','> Adapting tone for LinkedIn, Instagram, newsletter...','> 4-week editorial calendar ready.','> Total time: 30 minutes vs 4 hours ✓']
+  email:['> Analizando historial de comunicaciones con 47 leads...','> Detectando patrones de respuesta y timing óptimo...','> Generando secuencias personalizadas de follow-up...','> Pipeline connected. Automatización active.','> Ahorro estimado: 2h 40min por día ✓'],
+  proposals:['> Cargando template de propuestas base...','> Extrayendo datos del CRM: industria, tamaño, dolor detectado...','> Adaptando tono y alcance al perfil del prospecto...','> Propuesta generada y lista para revisión.','> Tiempo de elaboración: 15 minutos ✓'],
+  crm:['> Parseando notas de reuniones y emails...','> Extrayendo acciones, fechas y compromisos...','> Actualizando campos en HubSpot automáticamente...','> CRM sincronizado. 0 entradas manuales.','> Ahorro estimado: 40 minutos por día ✓'],
+  content:['> Analizando tendencias del sector fintech/legaltech...','> Generando 5 variaciones de contenido por red...','> Adaptando tono para LinkedIn, Instagram, newsletter...','> Calendario editorial de 4 semanas listo.','> Tiempo total: 30 minutos vs 4 horas ✓']
 };
 
 function optimizeProcess(el,id){
